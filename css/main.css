@@ -1005,10 +1005,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .percent60  { width: 60%; }
 .skill-bars li .percent65  { width: 65%; }
 .skill-bars li .percent70  { width: 70%; }
-.skill-bars li .percent75  { width: 75%; }
+.skill-bars li .percent75  { width: 35%; }
 .skill-bars li .percent80  { width: 80%; }
 .skill-bars li .percent85  { width: 85%; }
-.skill-bars li .percent90  { width: 90%; }
+.skill-bars li .percent90  { width: 80%; }
 .skill-bars li .percent95  { width: 95%; }
 .skill-bars li .percent100 { width: 100%; }
 
@@ -1556,6 +1556,7 @@ header .logo a {
 
 .button-section {
 	text-align: center;
+
 }
 .button-section .button {
 	width: 250px;
