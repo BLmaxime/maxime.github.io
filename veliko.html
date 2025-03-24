@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Présentation du TP - Veliko</title>
+    <title>Présentation de LumyBly</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,18 +25,9 @@
         }
         h1 {
             text-align: center;
-            margin-bottom: 20px;
         }
         .section {
-            margin-bottom: 30px;
-        }
-        .section h2 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-        .section p {
-            margin: 10px 0;
-            line-height: 1.6;
+            margin-bottom: 20px;
         }
         .btn-back-to-index {
             display: inline-block;
@@ -52,43 +43,28 @@
 </head>
 <body>
 <div class="container">
-    <a href="index.html" class="btn-back-to-index" style="position: absolute; top: 20px; left: 20px;">Retour à l'accueil</a>
-    <h1>Présentation du TP - Veliko</h1>
+    <a href="index.html" class="btn-back-to-index">Retour à l'accueil</a>
+    <h1>Présentation de LumyBly</h1>
 
     <div class="section">
-        <h2>Aperçu du Projet</h2>
-        <p>Le projet TP sur l'application Veliko a pour but de développer une plateforme permettant aux utilisateurs de vérifier la disponibilité des vélos en libre-service dans les stations Vélib’ de Paris. L’application utilise des données en temps réel pour afficher, de manière interactive, la position des stations et leur statut actuel (nombre de vélos disponibles, espaces libres, etc.). Le principal défi était de concevoir un système capable de récupérer et d'afficher ces informations de manière fluide, tout en garantissant la réactivité de l'interface.</p>
-        <p>Le site repose sur l’utilisation de Symfony pour la gestion de l’application backend et l’intégration de données à travers des API. L’une des tâches majeures était d'assurer que les informations sur les stations soient constamment mises à jour pour garantir aux utilisateurs une expérience fluide et précise. Ce projet s’inscrit dans la tendance actuelle de rendre les services urbains plus accessibles et intelligents en fournissant des informations en temps réel aux citoyens.</p>
-    </div>
-    <div class="section">
-        <h2>Informations utiles</h2>
-        <p><strong>Langages utilisés :</strong> TWIG, PHP, Java</p>
-        <p><strong>Frameworks utilisés :</strong> Symfony</p>
-        <p><strong>Base de données :</strong> MySQL</p>
-        <p><strong>API :</strong> API Vélib’, OpenStreetMap</p>
+        <h2>Aperçu</h2>
+        <p>LumyBly est une plateforme e-commerce spécialisée dans les protections d’écran anti-lumière bleue et le bien-être numérique.</p>
     </div>
 
-    <img src="images/portfolio/menuVel.png" height="750" width="1200" alt="carte">
-    <div class="section">
-        <h2>Difficultés Rencontrées</h2>
-        <p>Tout d'abord, une des difficultés majeures a été d'intégrer les données des stations Vélib’. Ces données, provenant d'une API externe, nécessitent une gestion soignée des requêtes pour éviter des erreurs d'affichage ou des erreurs techniques liées à la récupération des informations. Assurer la disponibilité continue de ces données tout en gérant les erreurs a nécessité plusieurs itérations pour rendre l’application stable et robuste.</p>
-        <p>Ensuite, l'interaction avec la carte interactive a constitué un autre défi. L'objectif était d'afficher les stations de manière dynamique, en tenant compte des nouvelles données qui arrivent régulièrement. Utiliser des outils comme Leaflet pour afficher la carte et interagir avec les données en temps réel a nécessité une bonne maîtrise du JavaScript et de la gestion des événements côté client. Des ajustements ont été nécessaires pour optimiser la performance de la carte, notamment en réduisant les appels API pour améliorer la réactivité de l'application.</p>
-        <p>Une autre difficulté a été la gestion des erreurs et des cas où les données de l’API n’étaient pas disponibles ou étaient corrompues. Dans ces cas, l'application devait afficher des messages d'erreur compréhensibles et éviter que l'interface devienne confuse pour l'utilisateur. Pour cela, il a fallu mettre en place des mécanismes de récupération et de validation des données avant de les afficher à l'écran.</p>
-    </div>
+    <img src="images/portfolio/lumy.png" height="400" width="800">
 
-    <img src="images/portfolio/carteVel.png" height="750" width="1200" alt="carte">
-    <img src="images/portfolio/favvvvvvv.png" height="750" width="1200" alt="fav">
     <div class="section">
-        <h2>Compétences Acquises</h2>
-        <p>Ce projet m’a permis de consolider mes compétences en Symfony, en particulier la gestion des bases de données avec Doctrine, ainsi que la création d’entités et de relations entre elles. J’ai approfondi l’utilisation des API externes pour récupérer des données en temps réel et les afficher sur le site, ce qui est devenu un aspect fondamental du projet. J’ai également appris à manipuler des outils comme Leaflet, qui permettent d’ajouter des cartes interactives à une application web. Cette compétence est désormais plus développée, notamment pour intégrer des cartes dynamiques qui réagissent aux données qui leur sont envoyées.</p>
-        <p>En travaillant sur la gestion des erreurs, j’ai également appris à créer des systèmes de récupération d'erreurs robustes qui garantissent la stabilité de l'application. De plus, l'intégration de la gestion des stocks et la mise à jour en temps réel des informations m’ont permis d’acquérir une meilleure compréhension des applications modernes orientées données.</p>
-        <p>Enfin, l’aspect responsive design a été un point essentiel du projet. En m'assurant que l’application fonctionne bien sur tous les appareils, j’ai pu parfaire ma maîtrise du design adaptatif et de la prise en compte de la diversité des supports pour l’affichage des informations.</p>
+        <h2>Fonctionnalités</h2>
+        <ul>
+            <li><strong>Interface intuitive</strong> pour une navigation fluide.</li>
+            <li><strong>Gestion automatisée des stocks</strong> pour éviter les ruptures.</li>
+            <li><strong>Responsive Design</strong> adapté à tous les appareils.</li>
+        </ul>
     </div>
 
     <div class="section">
-        <h2>Conclusion</h2>
-        <p>Ce projet de TP sur l'application Veliko a été une expérience enrichissante, me permettant de travailler sur des technologies modernes et de résoudre des problématiques techniques variées. Le développement de l’application m’a non seulement permis d’approfondir mes compétences en Symfony et JavaScript, mais aussi d'améliorer mes capacités à travailler avec des API externes et des systèmes de données en temps réel. Les défis rencontrés m'ont appris à anticiper les problèmes techniques et à développer des solutions fiables et efficaces, tant au niveau de la gestion des données que de l'interface utilisateur.</p>
-        <p>Je suis désormais plus confiant dans ma capacité à développer des applications web complexes et à intégrer des services tiers dans des projets à grande échelle. Ce TP m’a également permis de mieux comprendre l'importance de l'optimisation de la performance et de la gestion des erreurs, deux aspects cruciaux pour garantir la stabilité d'une application en production. En somme, cette expérience a été un pas important dans mon développement professionnel en tant que développeur web.</p>
+        <h2>Objectifs</h2>
+        <p>Créer une marque axée sur la santé numérique et tester des stratégies de branding et marketing digital.</p>
     </div>
 
     <a href="index.html" class="btn-back-to-index" style="display: block; text-align: center;">Retour à l'accueil</a>
